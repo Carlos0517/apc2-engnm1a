@@ -17,7 +17,7 @@ int main() {
   case 3: printf("Nota Suficiente\n");break;
   case 4: printf("Nota Boa\n");break ;
   case 5: printf("Nota ótima\n");break; 
-  default: printf("nota invalida");break; 
+  default: printf("nota invalida\n");break; 
 
   }
     
