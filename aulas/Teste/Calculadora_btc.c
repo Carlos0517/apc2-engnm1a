@@ -10,13 +10,16 @@ int main(){
   int deu_certo = scanf("%f", &dolar);
 
   
-  int cotação_bit_dolar
+  int cotação_bit_dolar;
   
   
   printf("qual a atual cotação do bitcoin em dólar: ");
-  deu_certo = scanf("%i", cotação_bit_dolar); 
+  deu_certo = scanf("%i", &cotação_bit_dolar); 
 
-  
+  // quantidade de bit = cotação / quatidade de dolares
+
+  bitcoin = dolar / cotação_bit_dolar ; 
+  printf("Você comprou a quantia de %f bitcoins\n", bitcoin);
 
 
 

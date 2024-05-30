@@ -7,7 +7,7 @@ int main() {
   
   
   for(int i=0 ; i  <10; i++) {
-    printf("Entre com o %i numero");
+    printf("Entre com o %i numero: ", (i));
     int deu_certo = scanf("%i", &numeros[i]);
     soma = soma + numeros[i];  
   }

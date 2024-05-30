@@ -1,6 +1,5 @@
 { pkgs }: {
     deps = [
-      pkgs.clear
-      pkgs.cowsay
+      pkgs.vim
     ];
 }
